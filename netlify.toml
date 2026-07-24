@@ -5,6 +5,8 @@
 [build.environment]
   NODE_VERSION = "20"
   NETLIFY_NEXT_PLUGIN_SKIP = "true"
+  NEXT_TELEMETRY_DISABLED = "1"
+  ESLINT_NO_DEV_ERRORS = "true"
 
 [[plugins]]
   package = "@netlify/plugin-nextjs"
